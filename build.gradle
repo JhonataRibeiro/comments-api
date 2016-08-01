@@ -29,4 +29,9 @@ dependencies {
     testCompile 'junit:junit:4.12'
     // https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-client
 	compile group: 'org.glassfish.jersey.core', name: 'jersey-client', version: '2.23.1'
+	compile group: 'org.hibernate', name: 'hibernate-core', version: '5.2.1.Final'
+	// https://mvnrepository.com/artifact/javax.jws/jsr181
+	compile group: 'javax.jws', name: 'jsr181', version: '1.0'
+	// https://mvnrepository.com/artifact/javax.ejb/ejb-api
+	compile group: 'javax.ejb', name: 'ejb-api', version: '3.0'
 }
